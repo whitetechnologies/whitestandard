@@ -1,1 +1,10 @@
-STELLAR TOML GOES HERE
+# Federation service provided by StellarID.io
+FEDERATION_SERVER="https://stellarid.io/federation/"
+[[CURRENCIES]]
+code = "WSD"
+conditions = "WSD Tokens are issued when $USD deposits are made and burned when $USD deposits are redeemed"
+desc = "The White Standard is a stablecoin 100% backed by and redeemable for $USD"
+display_decimals = 2
+image = "https://www.thewwallet.com/logo"
+issuer = "GDSVWEA7XV6M5XNLODVTPCGMAJTNBLZBXOFNQD3BNPNYALEYBNT6CE2V"
+name = "White Standard"
