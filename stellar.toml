@@ -1,1 +1,2 @@
-STELLAR TOML GOES HERE
+# Federation service provided by StellarID.io
+FEDERATION_SERVER="https://stellarid.io/federation/"
