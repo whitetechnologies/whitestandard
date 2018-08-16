@@ -2,7 +2,7 @@
 FEDERATION_SERVER="https://stellarid.io/federation/"
 [[CURRENCIES]]
 code = "WSD"
-conditions = "WSD Tokens are issued when $USD deposits are made and burned when $USD deposits are redeemed"
+conditions = "WSD Tokens are issued when $ USD deposits are made and burned when $USD deposits are redeemed"
 desc = "The White Standard is a stable coin 100% backed by and redeemable for $USD"
 display_decimals = 2
 image = "https://www.thewwallet.com/logo"
@@ -10,7 +10,7 @@ issuer = "GDSVWEA7XV6M5XNLODVTPCGMAJTNBLZBXOFNQD3BNPNYALEYBNT6CE2V"
 name = "White Standard Dollar"
 [[CURRENCIES]]
 code = "WSE"
-conditions = "WSE Tokens are issued when EURO deposits are made and burned when EURO deposits are redeemed"
+conditions = "WSE Tokens are issued when € EURO deposits are made and burned when EURO deposits are redeemed"
 desc = "The White Standard Euro is a stable coin 100% backed by and redeemable for EURO"
 display_decimals = 2
 image = "https://www.thewwallet.com/logo"
@@ -18,7 +18,7 @@ issuer = "GDSVWEA7XV6M5XNLODVTPCGMAJTNBLZBXOFNQD3BNPNYALEYBNT6CE2V"
 name = "White Standard Euro"
 [[CURRENCIES]]
 code = "WSP"
-conditions = "WSD Tokens are issued when GBP deposits are made and burned when GBP deposits are redeemed"
+conditions = "WSP Tokens are issued when £ GBP deposits are made and burned when GBP deposits are redeemed"
 desc = "The White Standard Pound is a stable coin 100% backed by and redeemable for GBP"
 display_decimals = 2
 image = "https://www.thewwallet.com/logo"
