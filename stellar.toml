@@ -9,7 +9,7 @@ image = "https://www.thewwallet.com/logowsd.png"
 issuer = "GDSVWEA7XV6M5XNLODVTPCGMAJTNBLZBXOFNQD3BNPNYALEYBNT6CE2V"
 name = "White Standard Dollar"
 [[CURRENCIES]]
-code = "WSE"
+code = "WSEUR"
 conditions = "WSE Tokens are issued when € EURO deposits are made and burned when EURO deposits are redeemed"
 desc = "The White Standard Euro is a stable coin 100% backed by and redeemable for EURO"
 display_decimals = 2
@@ -17,7 +17,7 @@ image = "https://www.thewwallet.com/logowse.png"
 issuer = "GDSVWEA7XV6M5XNLODVTPCGMAJTNBLZBXOFNQD3BNPNYALEYBNT6CE2V"
 name = "White Standard Euro"
 [[CURRENCIES]]
-code = "WSP"
+code = "WSGBP"
 conditions = "WSP Tokens are issued when £ GBP deposits are made and burned when GBP deposits are redeemed"
 desc = "The White Standard Pound is a stable coin 100% backed by and redeemable for GBP"
 display_decimals = 2
