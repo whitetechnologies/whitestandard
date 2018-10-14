@@ -9,7 +9,7 @@ image = "https://www.thewwallet.com/logowsd.png"
 issuer = "GDSVWEA7XV6M5XNLODVTPCGMAJTNBLZBXOFNQD3BNPNYALEYBNT6CE2V"
 name = "White Standard Dollar"
 anchor_asset_type="fiat"
-anchor_asset="WSD"
+anchor_asset="USD"
 is_asset_anchored = true
 redemption_instructions = "Redeemable through https://thewwallet.com or through SEP-006 via thewwallet.com API"
 [[CURRENCIES]]
