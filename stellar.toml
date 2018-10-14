@@ -10,7 +10,7 @@ issuer = "GDSVWEA7XV6M5XNLODVTPCGMAJTNBLZBXOFNQD3BNPNYALEYBNT6CE2V"
 name = "White Standard Dollar"
 anchor_asset_type="fiat"
 anchor_asset="USD"
-is_asset_anchored = true
+is_asset_anchored = "true"
 redemption_instructions = "Redeemable through https://thewwallet.com or through SEP-006 via thewwallet.com API"
 [[CURRENCIES]]
 code = "WSEUR"
@@ -22,7 +22,7 @@ issuer = "GDSVWEA7XV6M5XNLODVTPCGMAJTNBLZBXOFNQD3BNPNYALEYBNT6CE2V"
 name = "White Standard Euro"
 anchor_asset_type="fiat"
 anchor_asset="EUR"
-is_asset_anchored = true
+is_asset_anchored = "true"
 redemption_instructions = "Redeemable through https://thewwallet.com or through SEP-006 via thewwallet.com API"
 [[CURRENCIES]]
 code = "WSGBP"
@@ -33,5 +33,5 @@ image = "https://www.thewwallet.com/logowsp.png"
 issuer = "GDSVWEA7XV6M5XNLODVTPCGMAJTNBLZBXOFNQD3BNPNYALEYBNT6CE2V"
 name = "White Standard Pound"anchor_asset_type="fiat"
 anchor_asset="GBP"
-is_asset_anchored = true
+is_asset_anchored = "true"
 redemption_instructions = "Redeemable through https://thewwallet.com or through SEP-006 via thewwallet.com API"
