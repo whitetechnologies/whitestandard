@@ -1,6 +1,6 @@
 # Federation service provided by StellarID.io
 FEDERATION_SERVER="https://stellarid.io/federation/"
-TRANSFER_SERVER="https://api.domain.com"
+TRANSFER_SERVER="https://thewwallet.com/ExtApi"
 
 # convenience mapping of common names to node IDs.
 # You can use these common names in sections below instead of the less friendly nodeID.
