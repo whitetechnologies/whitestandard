@@ -26,6 +26,7 @@ NODE_NAMES=[
 #   A list of accounts that are controlled by this domain.
 ACCOUNTS=[
 "GBH42X7GG5TQLBMKY2KNYQ6KY7XOUALQCUUZQH5EOLVNULDJMLCNUNJP"
+"GDSVWEA7XV6M5XNLODVTPCGMAJTNBLZBXOFNQD3BNPNYALEYBNT6CE2V"
 ]
 
 #   Any validation public keys that are declared
