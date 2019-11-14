@@ -25,7 +25,7 @@ NODE_NAMES=[
 
 #   A list of accounts that are controlled by this domain.
 ACCOUNTS=[
-"GBH42X7GG5TQLBMKY2KNYQ6KY7XOUALQCUUZQH5EOLVNULDJMLCNUNJP",
+"GBH42X7GG5TQLBMKY2KNYQ6KY7XOUALQCUUZQH5EOLVNULDJMLCNUNJP"
 ]
 
 #   Any validation public keys that are declared
@@ -57,59 +57,63 @@ KNOWN_PEERS=[
 "core-live-c.stellar.org"
 ]
 
+HISTORY=[
+"https://history.thewwallet.com/corelive001"
+]
+
 [QUORUM_SET]
 VALIDATORS=[
 "$satoshipay1", "$satoshipay2", "$satoshipay3"
 ]
 
 [[CURRENCIES]]
-code = "WSD"
-conditions = "WSD Tokens are issued when $ USD deposits are made and burned when $USD deposits are redeemed"
-desc = "The White Standard is a stable coin 100% backed by and redeemable for $USD"
-display_decimals = 2
-image = "https://www.thewwallet.com/logowsd.png"
-issuer = "GDSVWEA7XV6M5XNLODVTPCGMAJTNBLZBXOFNQD3BNPNYALEYBNT6CE2V"
-name = "White Standard Dollar"
+code="WSD"
+conditions="WSD Tokens are issued when $ USD deposits are made and burned when $USD deposits are redeemed"
+desc="The White Standard is a stable coin 100% backed by and redeemable for $USD"
+display_decimals=2
+image="https://www.thewwallet.com/logo"
+issuer="GDSVWEA7XV6M5XNLODVTPCGMAJTNBLZBXOFNQD3BNPNYALEYBNT6CE2V"
+name="White Standard Dollar"
 anchor_asset_type="fiat"
 anchor_asset="USD"
-is_asset_anchored = "true"
-redemption_instructions = "Redeemable through https://thewwallet.com or through SEP-006 via thewwallet.com API"
+is_asset_anchored=true
+redemption_instructions="Redeemable through https://thewwallet.com or through SEP-006 via thewwallet.com API"
 [[CURRENCIES]]
-code = "WSEUR"
-conditions = "WSE Tokens are issued when € EURO deposits are made and burned when EURO deposits are redeemed"
-desc = "The White Standard Euro is a stable coin 100% backed by and redeemable for EURO"
-display_decimals = 2
-image = "https://www.thewwallet.com/logowse.png"
-issuer = "GDSVWEA7XV6M5XNLODVTPCGMAJTNBLZBXOFNQD3BNPNYALEYBNT6CE2V"
-name = "White Standard Euro"
+code="WSEUR"
+conditions="WSE Tokens are issued when EURO deposits are made and burned when EURO deposits are redeemed"
+desc="The White Standard Euro is a stable coin 100% backed by and redeemable for EURO"
+display_decimals=2
+image="https://www.thewwallet.com/logowse"
+issuer="GDSVWEA7XV6M5XNLODVTPCGMAJTNBLZBXOFNQD3BNPNYALEYBNT6CE2V"
+name="White Standard Euro"
 anchor_asset_type="fiat"
 anchor_asset="EUR"
-is_asset_anchored = "true"
-redemption_instructions = "Redeemable through https://thewwallet.com or through SEP-006 via thewwallet.com API"
+is_asset_anchored=true
+redemption_instructions="Redeemable through https://thewwallet.com or through SEP-006 via thewwallet.com API"
 [[CURRENCIES]]
-code = "WSGBP"
-conditions = "WSP Tokens are issued when £ GBP deposits are made and burned when GBP deposits are redeemed"
-desc = "The White Standard Pound is a stable coin 100% backed by and redeemable for GBP"
-display_decimals = 2
-image = "https://www.thewwallet.com/logowsp.png"
-issuer = "GDSVWEA7XV6M5XNLODVTPCGMAJTNBLZBXOFNQD3BNPNYALEYBNT6CE2V"
-name = "White Standard Pound"
+code="WSGBP"
+conditions="WSP Tokens are issued when GBP deposits are made and burned when GBP deposits are redeemed"
+desc="The White Standard Pound is a stable coin 100% backed by and redeemable for GBP"
+display_decimals=2
+image="https://www.thewwallet.com/logowsp"
+issuer="GDSVWEA7XV6M5XNLODVTPCGMAJTNBLZBXOFNQD3BNPNYALEYBNT6CE2V"
+name="White Standard Pound"
 anchor_asset_type="fiat"
 anchor_asset="GBP"
-is_asset_anchored = "true"
-redemption_instructions = "Redeemable through https://thewwallet.com or through SEP-006 via thewwallet.com API"
+is_asset_anchored=true
+redemption_instructions="Redeemable through https://thewwallet.com or through SEP-006 via thewwallet.com API"
 [[CURRENCIES]]
-code = "BSV"
-conditions = "BSV Tokens are issued when BSV deposits are made and burned when BSV deposits are redeemed"
-desc = "The BSV anchor is 100% backed by and redeemable for Bitcoin SV"
-display_decimals = 5
-image = "https://www.thewwallet.com/logobsv.png"
-issuer = "GDSVWEA7XV6M5XNLODVTPCGMAJTNBLZBXOFNQD3BNPNYALEYBNT6CE2V"
-name = "Bitcoin SV"
+code="BSV"
+conditions="BSV Tokens are issued when BSV deposits are made and burned when BSV deposits are redeemed"
+desc="The BSV anchor is 100% backed by and redeemable for Bitcoin SV"
+display_decimals=5
+image="https://www.thewwallet.com/logobsv"
+issuer="GDSVWEA7XV6M5XNLODVTPCGMAJTNBLZBXOFNQD3BNPNYALEYBNT6CE2V"
+name="Bitcoin SV"
 anchor_asset_type="crypto"
 anchor_asset="BSV"
-is_asset_anchored = "true"
-redemption_instructions = "Redeemable through https://thewwallet.com or through SEP-006 via thewwallet.com API"
+is_asset_anchored=true
+redemption_instructions="Redeemable through https://thewwallet.com or through SEP-006 via thewwallet.com API"
 [[CURRENCIES]]
 code = "BTC"
 conditions = "BTC Tokens are issued when BTC deposits are made and burned when BTC deposits are redeemed"
