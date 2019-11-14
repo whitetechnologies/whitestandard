@@ -26,7 +26,6 @@ NODE_NAMES=[
 #   A list of accounts that are controlled by this domain.
 ACCOUNTS=[
 "GBH42X7GG5TQLBMKY2KNYQ6KY7XOUALQCUUZQH5EOLVNULDJMLCNUNJP",
-"GDSVWEA7XV6M5XNLODVTPCGMAJTNBLZBXOFNQD3BNPNYALEYBNT6CE2V"
 ]
 
 #   Any validation public keys that are declared
@@ -109,5 +108,17 @@ issuer = "GDSVWEA7XV6M5XNLODVTPCGMAJTNBLZBXOFNQD3BNPNYALEYBNT6CE2V"
 name = "Bitcoin SV"
 anchor_asset_type="crypto"
 anchor_asset="BSV"
+is_asset_anchored = "true"
+redemption_instructions = "Redeemable through https://thewwallet.com or through SEP-006 via thewwallet.com API"
+[[CURRENCIES]]
+code = "BTC"
+conditions = "BTC Tokens are issued when BTC deposits are made and burned when BTC deposits are redeemed"
+desc = "The BTC anchor is 100% backed by and redeemable for Bitcoin"
+display_decimals = 5
+image = "https://www.thewwallet.com/logobtc.png"
+issuer = "GDSVWEA7XV6M5XNLODVTPCGMAJTNBLZBXOFNQD3BNPNYALEYBNT6CE2V"
+name = "Bitcoin"
+anchor_asset_type="crypto"
+anchor_asset="BST"
 is_asset_anchored = "true"
 redemption_instructions = "Redeemable through https://thewwallet.com or through SEP-006 via thewwallet.com API"
